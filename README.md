@@ -75,4 +75,4 @@
 
 
 ## 📬 連絡先
-- **Email:** nishio.yutaro.carrer@gmail.com
+- **Email:** nishio.yutaro.carreer@gmail.com
