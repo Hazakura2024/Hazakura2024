@@ -36,6 +36,15 @@
     - バックエンドをQRコードによる情報の受け渡しのみで作成するため、アイコン画像の送信形式を工夫
 
 
+### [VRMモデル&制御工学で自然なまばたき with Unity]
+- **概要:** VRMモデルの「まばたき」を、単なるアニメーション再生ではなく、 制御工学の物理シミュレーションとして、Unityプロジェクトで作成しました。 また、パラメータの数値を変更すると「眠そうな目」「驚いた目」にもできます。また3Dアクションゲームのようにモデルの移動もできます。
+- **技術:** Unity(C#)
+- **工夫した点:**
+  - まぶたの挙動を「インパルス入力＋質量・ばね・ダンパ系(2次遅れ)」として捉え、運動方程式をリアルタイムに解く
+  - まばたきのクールタイムもポアソン分布で自然な間隔を計算
+- [リポジトリへのリンク](https://github.com/Hazakura2024/unity-VRM-control-engineering-blink)
+
+
 ### [Fashion-MNISTデータセットのDataAugumentation]
 - **概要:** 2年秋学期、研究室室体験授業での実験用コード
 - **技術:** Python(Colab), PyTorch, NumPy
@@ -67,6 +76,8 @@
   - [x] スマホを傾けて箱の中のボールを動かすゲームの作成(書籍)
   - [study-unity-Illumiball](https://github.com/Hazakura2024/study-unity-illumiball)
   - [ ] 2Dアクションゲームの作成
+  - [x] 制御工学を用いてVRMもでるに自然なまばたきをつけるプロジェクトの作成
+  - [unity-VRM-control-engineering-blink](https://github.com/Hazakura2024/unity-VRM-control-engineering-blink)
   - [ ] フリーのVRM3Dモデルを使用しモーションを実装したゲームの作成
 ### デスクトップアプリ
   - [x] Tkinterを用いたデスクトップアプリ作成の学習
