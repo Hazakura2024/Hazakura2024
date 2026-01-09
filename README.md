@@ -70,7 +70,6 @@
   - [ ] DjangoでのREST API構築
 ### 機械学習 / 自然言語処理
   - [ ] 書籍-Python実践データ分析100本ノックの完了
-  - [Algorithm-Study](https://github.com/Hazakura2024/book-DataAnalysis100knocks)
   - [ ] 書籍-つくりながら学ぶ！LLM 自作入門の完了
 ### Unity
   - [x] スマホを傾けて箱の中のボールを動かすゲームの作成(書籍)
