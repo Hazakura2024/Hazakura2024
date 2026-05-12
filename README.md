@@ -3,7 +3,7 @@
 ## 📝 About Me
 - 九州大学工学部電気情報工学科3年生の学生エンジニアです。
 - 国語、数学、物理が大好きです！
-- Web開発（フロント、バックエンド両方）をメインに学習してきました。
+- 大学1,2年ではWeb開発（フロント、バックエンド両方）をメインに学習してきました。
 - 制御×エンタメ・グラフィックorAI駆動制御分野に興味が出てきており、学習中
 - 現在興味ある分野が多く、様々な分野に手を出して試行錯誤中。
 ### 特に興味のある分野
@@ -82,10 +82,8 @@
   - [x] Firebaseを用いたNetflixCloneの作成
   - [study-netflix-clone-yt](https://github.com/Hazakura2024/netflix-clone-yt)
   - [x] NextJS基礎の学習
-  - [x] NestJS基礎の学習
   - [x] React×NestJSで掲示板アプリの作成
   - [ ] React×NestJSで落語SNSの作成
-  - [ ] DjangoでのREST API構築
 ### androidアプリ
   - [ ] 高校の頃に作っていたアプリの復習
   - [ ] 時間割管理アプリの作成
