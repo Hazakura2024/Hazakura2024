@@ -16,9 +16,9 @@
 - 低レイヤー：中学生の時にC言語からプログラミング始めたころもあり、ハードとのつながりに興味。
 
 ## 🛠 スキルセット
-- **Languages:** JavaScript, TypeScript, C, Java(Kotlin), C#(学習中), Python(文法基礎), Rust(学習中)
+- **Languages:** JavaScript, TypeScript, C, Java(Kotlin), C#, Python
 - **Tools:** Docker, Git
-- **Frontend**: React
+- **Frontend**: React, Next.js
 - **Backend**: NestJS (Node.js), TypeORM, Prisma, Firebase, JWT, Cookie
 - **Game Engine / Simulation**: Unity
 - **Machine Learning**: Pytorch
@@ -27,7 +27,7 @@
 
 ### [micro-post(掲示板アプリ)]
 - **概要:** React×NestJSで掲示板ををフロントからバックエンド、DBまで自分で作成、Render.comでデプロイ
-- **技術:** TypeScrtpt, React, NestJS(express), TypeORM, JWT, cookie, TanStackQuery, Zustand, React-hook-From&Zod
+- **技術:** TypeScrtpt,Next.js, React, NestJS(express), TypeORM, JWT, cookie, TanStackQuery, Zustand, React-hook-From&Zod
 - **工夫した点:**
   - Reactにおける現場でのベストプラクティスを目指しリファクタリングを繰り返し中
       - TanStackQuery, Zustand, React-hook-From&Zodなどの導入
@@ -85,8 +85,6 @@
   - [x] React×NestJSで掲示板アプリの作成
   - [ ] React×NestJSで落語SNSの作成
 ### androidアプリ
-  - [ ] 高校の頃に作っていたアプリの復習
-  - [ ] 時間割管理アプリの作成
 ### Unity
   - [ ] vrスマホアプリの作成  
   - [ ] 2Dアクションゲームの作成
