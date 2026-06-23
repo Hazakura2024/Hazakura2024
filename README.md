@@ -32,7 +32,7 @@
   - OpenAIのapiでgpt-4o-miniを使用して要約を作成させます。
   - Vercelでのデプロイで、jsdom を使ったスクレイピング処理が、サイズが大きく、Vercelの環境制限に引っかかって動かなかったため、軽量な cheerio に変えたら動くようになりました。
   - Next.jsのページをキャッシュ（保存）して使い回す機能が原因で、新しい要約を作った直後に履歴ページを見ても、古い画面が表示されたまま更新されなかったため、export const dynamic = "force-dynamic"; を書いて常に最新のデータを読み込むよう修正しました。
-- [リポジトリへのリンク](https://github.com/Hazakura2024/ai-youtube-wordbook)
+- [リポジトリへのリンク](https://github.com/Hazakura2024/ai-new-summary)
 
 ### [micro-post(掲示板アプリ)]
 - **概要:** React×NestJSで掲示板ををフロントからバックエンド、DBまで自分で作成、Render.comでデプロイ
