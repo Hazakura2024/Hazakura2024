@@ -25,9 +25,18 @@
 
 ## 🚀 主要プロジェクト
 
+### [AI-News-Summary]
+- **概要:** ネットニュース記事のurlを入力すると、3行の要約を作成して保存する。
+- **技術:** TypeScript, Next.js, OpenAIAPI, TailwindCSS, Superbase, Prisma
+- **詳細**
+  - OpenAIのapiでgpt-4o-miniを使用して要約を作成させます。
+  - Vercelでのデプロイで、jsdom を使ったスクレイピング処理が、サイズが大きく、Vercelの環境制限に引っかかって動かなかったため、軽量な cheerio に変えたら動くようになりました。
+  - Next.jsのページをキャッシュ（保存）して使い回す機能が原因で、新しい要約を作った直後に履歴ページを見ても、古い画面が表示されたまま更新されなかったため、export const dynamic = "force-dynamic"; を書いて常に最新のデータを読み込むよう修正しました。
+- [リポジトリへのリンク](https://github.com/Hazakura2024/ai-youtube-wordbook)
+
 ### [micro-post(掲示板アプリ)]
 - **概要:** React×NestJSで掲示板ををフロントからバックエンド、DBまで自分で作成、Render.comでデプロイ
-- **技術:** TypeScrtpt,Next.js, React, NestJS(express), TypeORM, JWT, cookie, TanStackQuery, Zustand, React-hook-From&Zod
+- **技術:** TypeScrtpt, React, NestJS(express), TypeORM, JWT, cookie, TanStackQuery, Zustand, React-hook-From&Zod
 - **工夫した点:**
   - Reactにおける現場でのベストプラクティスを目指しリファクタリングを繰り返し中
       - TanStackQuery, Zustand, React-hook-From&Zodなどの導入
