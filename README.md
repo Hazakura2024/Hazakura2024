@@ -16,10 +16,11 @@
 - 低レイヤー：中学生の時にC言語からプログラミング始めたころもあり、ハードとのつながりに興味。
 
 ## 🛠 スキルセット
-- **Languages:** JavaScript, TypeScript, C, Java(Kotlin), C#, Python
+- **Languages:** JavaScript, TypeScript, C, C++, Java(Kotlin), C#, Python
 - **Tools:** Docker, Git
 - **Frontend**: React, Next.js
 - **Backend**: NestJS (Node.js), TypeORM, Prisma, Firebase, JWT, Cookie
+- **firmware**: ESP32
 - **Game Engine / Simulation**: Unity
 - **Machine Learning**: Pytorch
 
@@ -104,7 +105,7 @@
   - [x] Tkinterを用いたデスクトップアプリ作成の学習
   - [study-python-tkinter-desktop-app](https://github.com/Hazakura2024/study-python-tkinter-desktop-app)
 ### 組み込み
-  - [ ] ESP32でwifi通信で画面に何か情報（検討中）を表示させる
+  - [x] ESP32でwifi通信で画面に何か情報（検討中）を表示させる
 
 
 
